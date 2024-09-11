@@ -30,7 +30,6 @@ body {
 .button {
     padding: 16px 14px;
     background-color: white;
-    border-radius: 24px;
     font-size: 16px;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(185, 185, 185);
@@ -69,8 +68,8 @@ td.intro {
 
 .contacticon { 
     display: block; 
-    font-size: 60px;
-     margin: 15px; }
+    font-size: 16px;
+     margin: 10px; }
 .center { text-align: center; }
 
 td.toppart-table {
@@ -93,10 +92,10 @@ td.timeline-date {
 
 h1 {
     font-family: "Noto Sans", Arial;
-    font-size: 46px;
+    font-size: 44px;
     color: rgb(0, 0, 0);
     letter-spacing: -1px;
-    word-spacing: 8px;
+    /* word-spacing: 8px; */
 	line-height: 0px;
 	margin-top: 60px;
     font-weight: bold;
