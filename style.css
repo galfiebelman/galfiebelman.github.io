@@ -158,9 +158,9 @@ p {
 	margin: auto;
 }
 
-/* h1 {
-    font-size: 250%;
-} */
+h1 {
+    font-size: 32px;
+}
 
 .button {
     padding: 8px 7px;
