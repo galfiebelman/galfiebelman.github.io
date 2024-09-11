@@ -158,14 +158,14 @@ p {
 	margin: auto;
 }
 
-h1 {
+/* h1 {
     font-size: 250%;
-}
+} */
 
 .button {
     padding: 8px 7px;
     background-color: white;
-    border-radius: 14px;
+    /* border-radius: 14px; */
     font-size: 10px;
     color: rgb(0, 0, 0);
     border: 2px solid rgb(185, 185, 185);
