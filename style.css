@@ -1,0 +1,202 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+  }
+
+.publications video {
+	width: 90%;
+}	
+
+.page-container {
+    width: 60%;
+	margin: auto;
+}
+
+/* .profile-pic {
+  border-radius: 50%;
+} */
+
+.linkedin-button {
+	color: rgb(100, 180, 255);
+}
+
+.scholar-button {
+	color: rgb(0, 100, 200);
+}
+
+.mail-button {
+	color: rgb(250, 50, 50);
+}
+
+.button {
+    padding: 16px 14px;
+    background-color: white;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(185, 185, 185);
+}
+
+.paper-button {
+    padding: 4px; 
+    background-color: white;
+    /* border-radius: 8px; */
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.paper-button:hover {
+    color: #0896c8;
+    border: 1px solid #0896c8;
+}
+
+.tiny {
+	font-size: 10px
+}
+
+table, td, th {
+	border: 0px solid black;
+	padding: 10px;
+}
+
+.button:hover {
+    border: 2px solid rgb(0, 0, 0);
+}
+
+td.intro {
+  vertical-align: middle;
+}
+
+.contacticon { 
+    display: block; 
+    font-size: 16px;
+     margin: 10px; }
+.center { text-align: center; }
+
+td.toppart-table {
+	vertical-align: middle;
+}
+
+td.publications-video {
+	vertical-align: middle;
+	margin: auto;
+}
+
+td.timeline-date {
+	vertical-align: middle;
+	margin: auto;
+}
+
+.icon {
+	font-size: 22px;
+}
+
+h1 {
+    font-family: "Noto Sans", Arial;
+    font-size: 36px;
+    color: rgb(0, 0, 0);
+    letter-spacing: -1px;
+    /* word-spacing: 8px; */
+	line-height: 0px;
+	margin-top: 60px;
+    font-weight: bold;
+}
+
+h2 {
+    font-family: "Noto Sans", Arial;
+    font-size: 35px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #000;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: #000;
+
+}
+
+a {
+	font-family: "Noto Sans", Arial;
+    font-size: 17px;
+	/* color: rgb(50, 80, 200); */
+}
+
+bib {
+	font-family: "Noto Sans", Arial;
+    font-size: 17px;
+    color: #000;
+    border-bottom: 1px dashed #0896c8; 
+}
+
+bib:hover {
+	color: rgb(50, 80, 200);
+}
+
+h4 {
+    font-family: "Noto Sans", Arial;
+    font-size: 16px;
+    /* font-weight: bold; */
+    color: #000;
+    font-style: italic;
+}
+
+h5 {
+    font-family: "Noto Sans", Arial;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Noto Sans", Arial;
+    font-size: 16px;
+}
+
+@media	(max-width: 600px){
+.page-container {
+    width: 90%;
+	margin: auto;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+.button {
+    padding: 8px 7px;
+    background-color: white;
+    /* border-radius: 14px; */
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(185, 185, 185);
+}
+
+.icon {
+	font-size: 16px;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+a {
+    font-size: 14px;
+}
+
+h4 {
+    font-size: 14px;
+}
+
+.publications video {
+	width: 100%;
+}
+
+
+}
+
