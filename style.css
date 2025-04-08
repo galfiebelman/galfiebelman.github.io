@@ -86,9 +86,18 @@ td.timeline-date {
 	margin: auto;
 }
 
+.toppart-table h2 {
+    margin-bottom: 0.05rem; /* Reduce from default (likely 1rem or more) */
+}
+
+.intro h3 {
+    margin-top: -10px;
+  }
+  
 .icon {
 	font-size: 22px;
 }
+
 
 h1 {
     font-family: "Noto Sans", Arial;
