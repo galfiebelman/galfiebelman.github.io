@@ -255,14 +255,11 @@ html {
     align-items: center; /* ADD THIS */
 }
 
-.publications-video video{
-    height: auto;
-    object-fit: contain;
-
-}
-
+.publications-video video,
 .publications-video img {
-    width: 100%;
+    max-width: 100%;
+    max-height: 140px;
+    width: auto;
     height: auto;
     object-fit: contain;
     border-radius: 8px;
