@@ -476,6 +476,27 @@ a:hover {
     color: var(--primary-dark);
 }
 
+/* Awards */
+.award-card { display:flex; gap:20px; align-items:flex-start; background:white; border:1px solid var(--border-light); border-radius:12px; padding:20px 25px; box-shadow:0 1px 3px rgba(0,0,0,.06); }
+.award-year { color:#cf0150; font-weight:700; min-width:95px; white-space:nowrap; }
+.award-card h3 { margin:0; font-size:17px; }
+.award-card h3 b { color:var(--text-dark); font-weight:600; }
+
+/* Top navigation */
+.topnav { position: sticky; top: 0; z-index: 100; background: rgba(255,255,255,0.85); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); border-bottom: 1px solid var(--border-light); }
+.topnav-inner { width: 60%; margin: auto; padding: 14px 20px; display: flex; justify-content: flex-end; align-items: center; }
+.topnav-links a { margin-left: 32px; font-size: 18px; font-weight: 500; color: var(--text-dark); }
+.topnav-links a:hover { color: var(--primary-color); }
+#top, #publications, #awards { scroll-margin-top: 70px; }
+
+/* Links inside the bio text */
+.intro h3 a { margin: 0; font-size: inherit; font-family: inherit; }
+
+@media (max-width: 900px) { .topnav-inner { width: 80%; } }
+@media (max-width: 600px) {
+    .topnav-inner { width: 90%; padding: 10px; justify-content: center; }
+    .topnav-links a { margin: 0 12px; font-size: 15px; }
+}
 /* Author names with dashed underline */
 bib {
     font-family: "Noto Sans", Arial;
@@ -545,6 +566,8 @@ bib:hover {
 .publications-table tr:nth-child(5) {
     animation: fadeInUp 0.6s ease-out 0.8s both;
 }
+.publications-table tr:nth-child(6) { animation: fadeInUp 0.6s ease-out 0.9s both; }
+.publications-table tr:nth-child(7) { animation: fadeInUp 0.6s ease-out 1.0s both; }
 
 /* Smooth scroll indicator (optional - for future use) */
 @keyframes bounce {
@@ -644,8 +667,9 @@ button, .button, .paper-button, a, bib {
     }
 
     .toppart-table h2 {
-        text-align: center;
-    }
+    text-align: center;
+    font-size: 34px;  
+  }
 
     h1 {
         font-size: 32px;
